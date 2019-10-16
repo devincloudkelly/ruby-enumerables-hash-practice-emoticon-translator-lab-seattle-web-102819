@@ -25,6 +25,7 @@ def get_japanese_emoticon(file_path, emoticon)
     if !library_hash[:get_emoticon][emoticon]
       p "Sorry, that isn't an emoticon."
     end
+  end
 end
 
 def get_english_meaning
