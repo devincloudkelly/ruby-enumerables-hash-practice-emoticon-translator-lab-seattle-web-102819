@@ -20,6 +20,10 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   # code goes here
   load_library(file_path).each do |key, value|
+    if emoticon == value[0]
+      value[1]
+    else
+      puts "I'm sorry, that's not a value"
   end
   binding.pry
 end
