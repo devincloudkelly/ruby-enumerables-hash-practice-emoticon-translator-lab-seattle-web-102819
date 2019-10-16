@@ -20,7 +20,9 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   # code goes here
   library_hash = load_library(file_path)
-  if library_hash[]
+  if library_hash[:get_emoticon] == 
+    
+  end
   binding.pry
 end
 
